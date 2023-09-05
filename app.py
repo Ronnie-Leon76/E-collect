@@ -29,7 +29,7 @@ with st.sidebar:
 
 # Creating main page heading
 st.title("E-collect")
-st.caption('Upload a photo of some of the junk electronics you have lying around in house and we will tell you the components of your electronics and how to dispose them.')
+st.caption('Upload a photo of some of the junk electronics you have lying around in house and we will tell you the components of your electronics.')
 st.caption('Then click the :blue[Detect Objects] button and check the result.')
 # Creating two columns on the main page
 col1, col2 = st.columns(2)
