@@ -9,7 +9,7 @@ model_path = './weights/best1_.pt'
 
 # Setting page layout
 st.set_page_config(
-    page_title="E-colect",  # Setting page title
+    page_title="E-collect",  # Setting page title
     page_icon="♻️",     # Setting page icon
     layout="wide",      # Setting layout to wide
     initial_sidebar_state="expanded",    # Expanding sidebar by default
@@ -28,7 +28,7 @@ with st.sidebar:
         "Select Model Confidence", 25, 100, 40)) / 100
 
 # Creating main page heading
-st.title("E-colect")
+st.title("E-collect")
 st.caption('Upload a photo of some of the junk electronics you have lying around in house and we will tell you the components of your electronics and how to dispose them.')
 st.caption('Then click the :blue[Detect Objects] button and check the result.')
 # Creating two columns on the main page
